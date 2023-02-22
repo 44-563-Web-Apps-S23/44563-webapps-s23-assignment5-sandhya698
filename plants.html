@@ -11,31 +11,31 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="STYLE.CSS">
 </head>
 <body>
-    <h1>Plants by Sandhya Paladugu</h1>
-    <div class = "container">
-      <div class = "row">
-        <div class = "col-sm-2">P</div>
-        <div class = "col-sm-2">A</div>
-        <div class = "col-sm-2">L</div>      
-        <div class = "col-sm-2">A</div>
-        <div class = "col-sm-2">D</div>
-        <div class = "col-sm-2">U</div>
-      </div>
-      <div class = "row">
-        <div class = "col-md">Poppy</div>
-        <div class = "col-md">Abies</div>
-        <div class = "col-md">Lamium</div>
-        <div class = "col-md">Acacia</div>
-        <div class = "col-md">Dahlia</div>
-        <div class = "col-md">Urn</div>      
-      </div>
+  <h1>Plants by Sandhya Paladugu</h1>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-sm-2">P</div>
+      <div class = "col-sm-2">A</div>
+      <div class = "col-sm-2">L</div>      
+      <div class = "col-sm-2">A</div>
+      <div class = "col-sm-2">D</div>
+      <div class = "col-sm-2">U</div>
     </div>
+    <div class = "row">
+      <div class = "col-md">Poppy</div>
+      <div class = "col-md">Abies</div>
+      <div class = "col-md">Lamium</div>
+      <div class = "col-md">Acacia</div>
+      <div class = "col-md">Dahlia</div>
+      <div class = "col-md">Urn</div>      
+    </div>
+    <br>
     <p>
       Plant names rows has been broken into a column comparing with the letters as we have used md which is referred as medium.
     </p>
+    <br>
     <div class = "container">
       <img src = "Lamium.jpg" class = "img-fluid" alt = "lamium" height = 200 width = 350>
       <img src = "POPPY.jpg" class = "img-fluid" alt = "poppy" height = 410 width = 400>
@@ -46,5 +46,90 @@
       <img src = "POPPY.jpg" class="img-thumbnail" alt="poppy" height = 410 width = 400>
       <img src ="Abies.jpg" class="img-thumbnail" alt="Abies" height = 200 width = 350> 
     </div>
+    <div class="container">
+      <table class="table table-bordered border-primary table-striped table-hover table-responsive table-compact" style="text-align: left">
+        <caption style="color:black">Table consists of Plants, mountains and lake Start Letters from last name</caption>
+        <thead style="text-align: center;">
+          <tr class="table-dark">
+            <th scope="row">number</th>
+            <th scope="col">Letter</th>
+            <th scope="col">Plant</th>
+            <th scope="col">Mountain</th>
+            <th scope="col">Lake</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-light">
+            <th scope="row">1</th>
+            <td>P</td>
+            <td>Poppy</td>
+            <td>Puma</td>
+            <td>Patagonia</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">2</th>
+            <td>A</td>
+            <td>Abies</td>
+            <td>acamarachi</td>
+            <td>Albert</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">3</th>
+            <td>L</td>
+            <td>Lamium</td>
+            <td>logan</td>
+            <td>Lelia</td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">4</th>
+            <td>A</td>
+            <td>Acacia</td>
+            <td>Assal</td>
+            <td>Altamaha</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">5</th>
+            <td>D</td>
+            <td>Dahlia</td>
+            <td>daeunsan</td>
+            <td>Dot</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">6</th>
+            <td>U</td>
+            <td>Urn</td>
+            <td>Ultima Thule Peak</td>
+            <td>Ute Lake</td>
+          </tr>
+        </tbody>
+     </table>
+    </div>
+    <labelS>BUTTONS</label>
+    <div class="container">
+      <button class="btn">P</button>
+      <button class="btn">A</button>
+      <button class="btn">L</button>
+      <button class="btn">A</button>
+      <button class="btn">D</button>
+      <button class="btn">U</button>
+    </div>
+    <br>
+    <labelS>BUTTONS GROUPS</label>
+    <div class="btn-toolbar">
+      <div class="btn-grp" role="success">
+        <button type="button" class="btn btn-success">P</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">L</button>
+      </div>
+      <div class="btn-grp" role="warning">
+        <button type="button" class="btn btn-warning">A</button>
+        <button type="button" class="btn btn-warning">D</button>
+      </div>
+      <div>
+        <div class="btn-grp" role="danger">
+          <button type="button" class="btn btn-danger">U</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
